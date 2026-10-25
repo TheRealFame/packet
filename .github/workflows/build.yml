@@ -188,7 +188,7 @@ jobs:
 
       - name: Build RPM
         run: |
-          rpmbuild -bb ~/rpmbuild/SPECS/packet.spec
+          rpmbuild -bb --nodeps ~/rpmbuild/SPECS/packet.spec
 
       - name: Copy RPM to workspace
         run: |
