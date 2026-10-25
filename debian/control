@@ -16,7 +16,8 @@ Build-Depends: debhelper-compat (= 13),
                desktop-file-utils,
                pkg-config,
                libgirepository1.0-dev,
-               libdbus-1-dev
+               libdbus-1-dev,
+               protobuf-compiler
 Standards-Version: 4.6.2
 Homepage: https://github.com/nozwock/packet
 Vcs-Browser: https://github.com/nozwock/packet
